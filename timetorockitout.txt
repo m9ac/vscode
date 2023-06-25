@@ -1,0 +1,6 @@
+this is actually much easier than i had made it out to be all this time
+i now have complete access to a common code repository
+and what's better is that it is locally hosted
+on my own hardware
+in my own house
+and accessible from just about any place that has a connection to my tailnet
