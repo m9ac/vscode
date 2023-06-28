@@ -1,10 +1,10 @@
 from ncclient import manager
 
 router = {
-    "host":"ios-xe-mgmt-latest.cisco.com",
-    "port":"10000",
+    "host":"sandbox-iosxe-recomm-1.cisco.com",
+    "port":"830",
     "username":"developer",
-    "password": "C1sco12345",
+    "password": "lastorangerestoreball8876",
 }
 
 with manager.connect(**router, hostkey_verify=False) as m:
