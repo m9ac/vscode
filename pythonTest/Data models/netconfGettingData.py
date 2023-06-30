@@ -7,7 +7,6 @@ router = {
     "password": "lastorangerestoreball8876",
 }
 
-
 with manager.connect(**router, hostkey_verify=False) as m:
     for capability in m.server_capabilities:
         print('*'*25)
