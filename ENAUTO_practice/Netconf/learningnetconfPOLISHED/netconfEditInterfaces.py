@@ -9,6 +9,6 @@ netconf_config = config_template.format(
     interface_name="GigabitEthernet2", interface_desc="Micah was here")
 
 with manager.connect(**router, hostkey_verify=False) as m:
-    response = m.edit_config(netconf_config, target="candidate")
+    response = m.edit_config(netconf_config, target="running")
 
 print(response)
