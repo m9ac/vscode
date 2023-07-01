@@ -1,6 +1,0 @@
-YANG is a format tempate 
-    ok so that was a lot to dicuss
-    i will need to recap later
-    there was a uhuge problem getting pyang to work
-        shortest vesion is that I got it up and working on a remote server but NOT on my mac
-        

@@ -1,9 +1,0 @@
-ssh port 830
-    1. hello packet
-    2.    return capabilities (YANG)
-    3. investigate YANG models
-    4. compose operation <get-config>
-    5. send message <rpc>
-    6. retrieve <rpc-reply>
-    7. process <data>
-
