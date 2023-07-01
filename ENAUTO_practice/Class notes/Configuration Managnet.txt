@@ -11,3 +11,5 @@ life
             diagnose / state output
             extennsilbe (addons)    
 I'm curous if this will work to sync changes sounthward from Github back down to my server repository
+    And the answer is, YES! I love github -- this thing is such an great tool.
+    I can't believe I never really took advantage of it before
