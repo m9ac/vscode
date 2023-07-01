@@ -1,7 +1,7 @@
 from ncclient import manager
 from router_info import router
 
-with open('/home/micah/vscode/learningnetconf/ios_config.xml') as file:
+with open('/home/micah/vscode/ENAUTO_practice/Netconf/learningnetconfPOLISHED/ios_config.xml') as file:
     config_template = file.read()
 
 
