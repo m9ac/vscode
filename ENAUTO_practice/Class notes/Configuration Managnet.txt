@@ -10,3 +10,4 @@ life
             idempotent (desired state)
             diagnose / state output
             extennsilbe (addons)    
+I'm curous if this will work to sync changes sounthward from Github back down to my server repository
