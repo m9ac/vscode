@@ -1,0 +1,30 @@
+Ansible 
+    is open source tool 
+    relies on ssh to communicate with target devices
+        agentless
+    needs a server
+    relies on .yaml scripts
+    platform agnostic
+
+Pupepet
+    open source
+    ruby language
+    primary-seconday
+    requires puppet agent and a puppet server 
+    puppet master
+
+    proxy agent 
+        connect to the puppet agent and then the puppet agent connects to Cisco devices over ssh
+        robust
+        mature
+        widely used
+        **supprts NETCONF <xml/>
+
+cheft
+    ruby based
+    open source
+    installed agent (thus not supported on Cisco)
+    availble for NX-OS devices 
+    extensible / programmable
+
+    recipies
