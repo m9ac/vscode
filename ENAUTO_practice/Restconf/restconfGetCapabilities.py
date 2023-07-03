@@ -1,5 +1,8 @@
 import requests
 import json
+import urllib3
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 router = {
     "host": "sandbox-iosxe-recomm-1.cisco.com",
@@ -21,3 +24,4 @@ if response.status_code == 200:
     response_dict = response.json()
     for capability in response_dict['ietf-netconf-monitoring:capabilities']['capability']:
         print(capability)
+# print(response)

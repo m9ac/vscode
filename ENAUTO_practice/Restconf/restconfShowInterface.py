@@ -14,10 +14,10 @@ headers = {
     "Content-Type":"appllication/yang-data+jason"    
 }
 
-url =f"https://{router['host']}:{router['port']}/restconf/data/ietf-routing:routing"
+
+url =f"https://{router['host']}:{router['port']}/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces/interface=Loopback99"
 
 response = requests.get(url=url, headers=headers, auth=(router["user"], router["password"]), verify=False).json()
 
 print(json.dumps(response, indent=2))
-
 
