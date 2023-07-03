@@ -34,7 +34,7 @@ op = python_response["interfaces-state"]["interface"]
 config = python_response["interfaces"]["interface"]
 
 print(f"Name: {config['name']['#text']}")
-#print(f"Packets In: {op['statistics']['in-unicast-pkts']}")
-#print(f"Interface Status: {op['admin-status']}")
+print(f"Packets In: {op['statistics']['in-unicast-pkts']}")
+print(f"Interface Status: {op['admin-status']}")
 
-pprint(python_response)
+#pprint(python_response)
