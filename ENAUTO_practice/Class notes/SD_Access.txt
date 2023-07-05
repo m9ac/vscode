@@ -1,0 +1,38 @@
+SD Access allows you to wander from one loaction to another withing the same network while maintaining authentication and access based on user accounts
+
+    intent-based infrastructure (cat 9K)
+    DNA Center (uses netconf and restconf to communicat with southbound devices)
+
+DNA Center
+    four (5) workflows
+    1.Design
+        geography
+    2.Policy
+        users 
+        grouops
+        resources
+            allw 
+            deny
+            or other deeper policiy
+    3.proivision
+        devices get set assigned to their geography here
+        where the fabric is created
+    4.assurance
+        real-time monitoring
+        machine learning 
+        can make pro-active corrective measures
+    (5.) (platform)
+    where all the automation takes place
+
+    APIs 
+    (Northbound) intent APIs
+    eastbound
+    westbound
+    southbound
+
+    DCLOUD USE BRAVE BROWSER
+    https://dcloud-dna-center-inst-rtp.cisco.com 
+        username: demo
+        password: demo1234!
+
+        **** the url for intent-based apis will begin with the FQDN followed by "/dna/intent/api/v1/"
