@@ -23,7 +23,7 @@ url =f"https://{router['host']}:{router['port']}/restconf/data/ietf-interfaces:i
 payload = {
     "ietf-interfaces:interface": {
         "name": "Loopback99",
-        "description": "holy crap and it works",
+        "description": "holy crap Batman and it works",
         "type": "iana-if-type:softwareLoopback",
         "enabled": True,
         "ietf-ip:ipv4": {

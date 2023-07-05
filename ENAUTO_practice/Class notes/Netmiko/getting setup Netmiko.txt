@@ -1,0 +1,3 @@
+pip3 install netmiko
+
+networktocode https://github.com/networktocode/ntc-template

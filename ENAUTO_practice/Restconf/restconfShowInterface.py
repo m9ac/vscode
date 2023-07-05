@@ -14,7 +14,10 @@ headers = {
     "Content-Type":"appllication/yang-data+jason"    
 }
 
+# This url can be used to as a "do show interfaces" command
+# url =f"https://{router['host']}:{router['port']}/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces/"
 
+# This url can be used to as a "do show interfaces" command
 url =f"https://{router['host']}:{router['port']}/restconf/data/Cisco-IOS-XE-interfaces-oper:interfaces/interface=Loopback99"
 
 response = requests.get(url=url, headers=headers, auth=(router["user"], router["password"]), verify=False).json()
