@@ -1,0 +1,46 @@
+In Python, an exception is an event that occurs during the execution of a program, which disrupts the normal flow of the program's instructions. When an exceptional condition arises, such as an error or unexpected behavior, an exception object is created to represent this condition.
+
+Python provides a built-in mechanism to handle exceptions using the try-except block. The basic syntax for handling exceptions is as follows:
+
+
+
+                            try:
+                                # Code that may raise an exception
+                                # ...
+                            except ExceptionType:
+                                # Code to handle the exception
+                                # ...
+                            Here's how it works:
+
+The code inside the try block is executed. If an exception occurs during the execution of this code, the rest of the block is skipped, and the program jumps to the corresponding except block.
+The except block catches the exception specified by ExceptionType. If the exception matches the specified type or is a subclass of it, the code inside the except block is executed. This block typically contains error handling or recovery code.
+Python provides various built-in exception classes that cover different types of errors. Some common exception types include:
+
+SyntaxError: Raised when there is a syntax error in the code.
+TypeError: Raised when an operation or function is applied to an object of an inappropriate type.
+NameError: Raised when a local or global name is not found.
+ValueError: Raised when a function receives an argument of the correct type but an invalid value.
+FileNotFoundError: Raised when a file or directory is requested but cannot be found.
+In addition to the except block, you can also use an else block and a finally block:
+
+The else block is executed if no exception occurs in the try block. It is commonly used to perform actions that should only happen when no exceptions are raised.
+The finally block is always executed, regardless of whether an exception occurred or not. It is typically used to perform cleanup operations, such as closing files or releasing resources.
+Here's an example that demonstrates the usage of try-except blocks:
+
+                            try:
+                                x = int(input("Enter a number: "))
+                                result = 10 / x
+                                print("Result:", result)
+                            except ValueError:
+                                print("Invalid input. Please enter a valid number.")
+                            except ZeroDivisionError:
+                                print("Cannot divide by zero.")
+                            else:
+                                print("No exceptions occurred.")
+                            finally:
+                                print("Execution complete.")
+
+
+In this example, if the user enters an invalid number or zero, the corresponding exception block is executed. If a valid number is entered, the division is performed, and the result is printed. The else block is executed if no exceptions occurred, and the finally block is always executed at the end, regardless of the outcome.
+
+By handling exceptions appropriately, you can gracefully handle errors and exceptions, improving the robustness and reliability of your Python programs.
